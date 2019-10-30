@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15400" systemVersion="19A602" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="GameList" representedClassName="GameList" syncable="YES" codeGenerationType="class">
+        <attribute name="gameName" optional="YES" attributeType="String"/>
+        <attribute name="personalComments" optional="YES" attributeType="String"/>
+        <relationship name="myGames" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Games"/>
+        <relationship name="userGameList" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Users"/>
+    </entity>
+    <entity name="Games" representedClassName="Games" syncable="YES" codeGenerationType="class">
+        <attribute name="gameComplexity" attributeType="String" defaultValueString="0"/>
+        <attribute name="gameDescription" attributeType="String" defaultValueString="N/A"/>
+        <attribute name="gameName" attributeType="String"/>
+        <attribute name="gameType" optional="YES" attributeType="String"/>
+        <attribute name="playerNumer" attributeType="String" defaultValueString="4"/>
+        <attribute name="playTime" optional="YES" attributeType="String"/>
+        <relationship name="gameComments" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="UserComments"/>
+    </entity>
+    <entity name="UserComments" representedClassName="UserComments" syncable="YES" codeGenerationType="class">
+        <attribute name="userComment" optional="YES" attributeType="String"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+        <relationship name="userNameInput" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Users"/>
+    </entity>
+    <entity name="Users" representedClassName="Users" syncable="YES" codeGenerationType="class">
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="gamePrefrences" optional="YES" attributeType="String"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <attribute name="passoword" optional="YES" attributeType="String"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Games" positionX="-215.4296875" positionY="37.43359375" width="138.4296875" height="148"/>
+        <element name="UserComments" positionX="88.65625" positionY="132.7578125" width="128" height="88"/>
+        <element name="GameList" positionX="-203.75" positionY="-215.45703125" width="128" height="103"/>
+        <element name="Users" positionX="35.5390625" positionY="-180.18359375" width="128" height="118"/>
+    </elements>
+</model>
