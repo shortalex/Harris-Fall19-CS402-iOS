@@ -10,6 +10,7 @@
 		6C4F07AF5FDEE38AA8FE7194 /* Pods_The_Board_Game_For_Me_The_Board_Game_For_MeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9AE88EF5D09CFA3E31A2A5 /* Pods_The_Board_Game_For_Me_The_Board_Game_For_MeUITests.framework */; };
 		9D9C38A44F2D082609393687 /* Pods_The_Board_Game_For_Me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4140F5E42A54DD70C52D2450 /* Pods_The_Board_Game_For_Me.framework */; };
 		B4CEACBF85E3004B862056E6 /* Pods_The_Board_Game_For_MeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F892FC65D07F9BA416F08731 /* Pods_The_Board_Game_For_MeTests.framework */; };
+		FA2B4294237CCFF200572EA5 /* AddGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B4293237CCFF200572EA5 /* AddGamesViewController.swift */; };
 		FA406D692368072500D03F12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA406D682368072500D03F12 /* AppDelegate.swift */; };
 		FA406D6B2368072500D03F12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA406D6A2368072500D03F12 /* SceneDelegate.swift */; };
 		FA406D6D2368072500D03F12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA406D6C2368072500D03F12 /* ViewController.swift */; };
@@ -20,7 +21,6 @@
 		FA406D832368073000D03F12 /* The_Board_Game_For_MeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA406D822368073000D03F12 /* The_Board_Game_For_MeTests.swift */; };
 		FA406D8E2368073000D03F12 /* The_Board_Game_For_MeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA406D8D2368073000D03F12 /* The_Board_Game_For_MeUITests.swift */; };
 		FA406D9C2368738400D03F12 /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA406D9B2368738400D03F12 /* DatabaseController.swift */; };
-		FA406D9E2368871100D03F12 /* AddGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA406D9D2368871100D03F12 /* AddGameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +50,7 @@
 		7CCD45BD1DC6D8E19083BA6B /* Pods-The Board Game For Me-The Board Game For MeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Board Game For Me-The Board Game For MeUITests.release.xcconfig"; path = "Target Support Files/Pods-The Board Game For Me-The Board Game For MeUITests/Pods-The Board Game For Me-The Board Game For MeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8A9163595EA62BFA41C2F506 /* Pods-The Board Game For Me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Board Game For Me.release.xcconfig"; path = "Target Support Files/Pods-The Board Game For Me/Pods-The Board Game For Me.release.xcconfig"; sourceTree = "<group>"; };
 		F892FC65D07F9BA416F08731 /* Pods_The_Board_Game_For_MeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Board_Game_For_MeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2B4293237CCFF200572EA5 /* AddGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGamesViewController.swift; sourceTree = "<group>"; };
 		FA406D652368072500D03F12 /* The Board Game For Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Board Game For Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA406D682368072500D03F12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA406D6A2368072500D03F12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,7 +67,6 @@
 		FA406D8D2368073000D03F12 /* The_Board_Game_For_MeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Board_Game_For_MeUITests.swift; sourceTree = "<group>"; };
 		FA406D8F2368073000D03F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA406D9B2368738400D03F12 /* DatabaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
-		FA406D9D2368871100D03F12 /* AddGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,8 +149,8 @@
 				FA406D9B2368738400D03F12 /* DatabaseController.swift */,
 				FA406D6A2368072500D03F12 /* SceneDelegate.swift */,
 				FA406D6C2368072500D03F12 /* ViewController.swift */,
-				FA406D9D2368871100D03F12 /* AddGameViewController.swift */,
 				FA406D6E2368072500D03F12 /* Main.storyboard */,
+				FA2B4293237CCFF200572EA5 /* AddGamesViewController.swift */,
 				FA406D742368073000D03F12 /* Assets.xcassets */,
 				FA406D762368073000D03F12 /* LaunchScreen.storyboard */,
 				FA406D792368073000D03F12 /* Info.plist */,
@@ -382,7 +382,7 @@
 			files = (
 				FA406D9C2368738400D03F12 /* DatabaseController.swift in Sources */,
 				FA406D6D2368072500D03F12 /* ViewController.swift in Sources */,
-				FA406D9E2368871100D03F12 /* AddGameViewController.swift in Sources */,
+				FA2B4294237CCFF200572EA5 /* AddGamesViewController.swift in Sources */,
 				FA406D692368072500D03F12 /* AppDelegate.swift in Sources */,
 				FA406D732368072500D03F12 /* The_Board_Game_For_Me.xcdatamodeld in Sources */,
 				FA406D6B2368072500D03F12 /* SceneDelegate.swift in Sources */,
