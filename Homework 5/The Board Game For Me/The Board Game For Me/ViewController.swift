@@ -21,8 +21,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let context = DatabaseController.persistentStoreContainer().viewContext
         
         let newGame = GameList(context: context)
-//        newGame.gameName = "Another crag location"
-//        newGame.personalComments = "new notes go here"
+        newGame.gameName = "Another crag location"
+        newGame.personalComments = "new notes go here"
 //
 //        newCrag.cragLocation = ClimbingLocation(context: context)
 //        newCrag.cragLocation?.latitude = 123.54
