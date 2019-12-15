@@ -1,0 +1,6 @@
+framework module Pods_The_Board_Game_For_Me_The_Board_Game_For_MeUITests {
+  umbrella header "Pods-The Board Game For Me-The Board Game For MeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
