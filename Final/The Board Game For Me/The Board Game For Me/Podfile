@@ -1,0 +1,26 @@
+
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'The Board Game For Me' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for The Board Game For Me
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+
+  target 'The Board Game For MeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'The Board Game For MeUITests' do
+    # Pods for testing
+  end
+
+end
